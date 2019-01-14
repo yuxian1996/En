@@ -16,7 +16,7 @@ THIS FEATURE WILL HAVE A FRAMEWORK FOR USERS TO SETUP THEIR DATA-DRIVEN BEHAVIOR
 Behavior tree is composited by lots of nodes, each node has its logic. Some of the nodes (composites) determine which child it choose to be executed, some logic simply execute a task. Each node could have a condition (decorator) which controls program would execute this node. And each node could have a service which runs when this node is being executing.
 
 <figure>
-	<a href="../img/blog/GameEngineering2/BehaviorTree/1.png"><img src="../img/blog/GameEngineering2/BehaviorTree/1.png"></a>
+	<a href="../assets/img/blog/GameEngineering2/BehaviorTree/1.png"><img src="../assets/img/blog/GameEngineering2/BehaviorTree/1.png"></a>
 </figure>
 
 The basic idea of the framework is:
@@ -35,29 +35,29 @@ return
     Nodes = 
     {
         {
-            ClassName = “SelectorClass”,
-            Name = “SelectorName”,
+            ClassName = "SelectorClass",
+            Name = "SelectorName",
             Decorators = 
             {
-                “DecoratorClass1”,
-                “DecoratorClass2”
+                "DecoratorClass1",
+                "DecoratorClass2"
             },
             Services = 
             {
-                “ServicesClass1”,
-                “ServicesClass2”
+                "ServicesClass1",
+                "ServicesClass2"
             },
         },
         {
-            …
+            ...
         }
-        …
+        ...
     },
     Links = 
     {
-        {“NodeName1”, “NodeName2”},
-        {“NodeName3”, “NodeName4”},
-        …
+        {"NodeName1", "NodeName2"},
+        {"NodeName3", "NodeName4"},
+        ...
     }
 }
 ~~~
@@ -69,7 +69,7 @@ The framework of behavior tree is finished. I added some tasks and decorators to
 I plan to implement the data file for the behavior tree and create a structure for the communication of nodes in the behavior tree.
 
 <figure>
-	<a href="../img/blog/GameEngineering2/BehaviorTree/4.gif"><img src="../img/blog/GameEngineering2/BehaviorTree/4.gif"></a>
+	<a href="../assets/img/blog/GameEngineering2/BehaviorTree/4.gif"><img src="../assets/img/blog/GameEngineering2/BehaviorTree/4.gif"></a>
 </figure>
 
 ## Update (11/14)
@@ -87,7 +87,7 @@ A behavior tree has a unique root node which is the first node to be execute whe
 	3. It’s also possible to load links by file. Use `eae6320::cResult LoadLinks(std::vector<BehaviorTreeNode*>& ipNodes, const char* const ipFilePath)` to link nodes by file path.
 	Behavior tree data should be as below:
 ~~~ ruby
-	return
+return
 {
     Links =
     {
@@ -130,26 +130,26 @@ The human-readable data file of blackboard data can be describes as below:
 ~~~ ruby
 return
 {
-	vector = 
-	{
+    vector = 
+    {
         "Name1",
         "Name2"
-	},
+    },
 
-	bool = 
-	{
-    	"Name3"
-	},
+    bool = 
+    {
+        "Name3"
+    },
 
-	float = 
-	{
-  	  "Name4"
-	},
+    float = 
+    {
+        "Name4"
+    },
 
-	int = 
-	{
- 	  "Name5"
-	}
+    int = 
+    {
+        "Name5"
+    }
 }
 ~~~
 
@@ -168,5 +168,5 @@ Note the value can only be bool, int, float and vector for now. It is not safe i
 ## Screenshots
 
 <figure>
-	<a href="../img/blog/GameEngineering2/BehaviorTree/5.gif"><img src="../img/blog/GameEngineering2/BehaviorTree/5.gif"></a>
+	<a href="../assets/img/blog/GameEngineering2/BehaviorTree/5.gif"><img src="../assets/img/blog/GameEngineering2/BehaviorTree/5.gif"></a>
 </figure>

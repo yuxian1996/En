@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Game Engineering 2 - Assignment01"
+title: "Game Engineering 2 - Assignment07"
 date: 2018-01-01
-excerpt: "This is the writeup for assignment01, EAE 6320 'Game Engineering 2'"
+excerpt: "This is the writeup for assignment07, EAE 6320 'Game Engineering 2'"
 tags: [EAE6320, Game Engine, Assignment]
 comments: false
 ---
@@ -49,10 +49,10 @@ Press <kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> to move the cube. Hold Co
 
 Three colorful meshes
 <figure>
-	<a href="../img/blog/GameEngineering2/Assignment6/1.png"><img src="../img/blog/GameEngineering2/Assignment6/1.png"></a>
+	<a href="../assets/img/blog/GameEngineering2/Assignment6/1.png"><img src="../assets/img/blog/GameEngineering2/Assignment6/1.png"></a>
 </figure>
 
 Debugging maya plug-in
 <figure>
-	<a href="../img/blog/GameEngineering2/Assignment6/2.png"><img src="../img/blog/GameEngineering2/Assignment6/2.png"></a>
+	<a href="../assets/img/blog/GameEngineering2/Assignment6/2.png"><img src="../assets/img/blog/GameEngineering2/Assignment6/2.png"></a>
 </figure>

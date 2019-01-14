@@ -23,7 +23,7 @@ Here is the screen shot of my binary mesh file (Red: check if index count is uin
 * Index array (Pink)
 
 <figure>
-	<a href="../img/blog/GameEngineering2/Assignment8/1.png"><img src="../img/blog/GameEngineering2/Assignment8/1.png"></a>
+	<a href="../assets/img/blog/GameEngineering2/Assignment8/1.png"><img src="../assets/img/blog/GameEngineering2/Assignment8/1.png"></a>
 </figure>
 
 
@@ -38,7 +38,7 @@ The binary file should be different for the different platforms. Since OpenGL an
 Since my program supports uint32_t index count and alignment of data, before read each data block, the pointer has to be aligned. As for reading vertex count and index array, it has to determine if it is uint32_t of uint16_t then read the corresponding data.
 
 <figure>
-	<a href="../img/blog/GameEngineering2/Assignment8/2.png"><img src="../img/blog/GameEngineering2/Assignment8/2.png"></a>
+	<a href="../assets/img/blog/GameEngineering2/Assignment8/2.png"><img src="../assets/img/blog/GameEngineering2/Assignment8/2.png"></a>
 </figure>
 
 <figure>
@@ -70,5 +70,5 @@ Press <kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> to move the cube. Hold Co
 
 Three colorful meshes
 <figure>
-	<a href="../img/blog/GameEngineering2/Assignment8/1.png"><img src="../img/blog/GameEngineering2/Assignment8/1.png"></a>
+	<a href="../assets/img/blog/GameEngineering2/Assignment8/1.png"><img src="../assets/img/blog/GameEngineering2/Assignment8/1.png"></a>
 </figure>

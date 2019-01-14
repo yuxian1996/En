@@ -2,7 +2,7 @@
 layout: post
 title:  "Charm and Sword"
 date:   2018-01-01
-excerpt: "a roll play VR game"
+excerpt: "A roll play VR game"
 project: true
 tag:
 - game 
@@ -31,7 +31,7 @@ Charm and Sword is a Role-play VR game in which the player acts as a taoist, fig
     ../assets/img/project/CharmAndSword/screenshot3.png
     ../assets/img/project/CharmAndSword/screenshot4.png
 {% endcapture %}
-{% include gallery images=images caption="Screenshots of Charm and Sword" cols=2 %}
+{% include gallery images=images cols=2 %}
 
 ## Demo
 <iframe width="640" height="400" src="../assets/img/project/CharmAndSword/demo.mp4" frameborder="0"> </iframe>

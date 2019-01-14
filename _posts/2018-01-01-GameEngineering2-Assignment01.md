@@ -42,5 +42,5 @@ Combine those above, we can detect key press in cMyGame::UpdateBasedOnInput and 
 ## Screenshots
 
 <figure>
-	<a href="../img/blog/GameEngineering2/Assignment1/screenshot.png"><img src="../img/blog/GameEngineering2/Assignment1/screenshot.png"></a>
+	<a href="../assets/img/blog/GameEngineering2/Assignment1/screenshot.png"><img src="../assets/img/blog/GameEngineering2/Assignment1/screenshot.png"></a>
 </figure>

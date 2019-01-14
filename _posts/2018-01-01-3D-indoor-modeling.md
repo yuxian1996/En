@@ -2,7 +2,7 @@
 layout: post
 title:  "3D indoor modeling based on rules"
 date:   2018-01-01
-#excerpt: "a scary puzzle game"
+excerpt: "A software converting 2D images to 3D models quickly"
 project: true
 tag:
 - program
@@ -17,11 +17,11 @@ I made a software converting 2D images to 3D models quickly, using a interactive
 ## Screenshots
 
 {% capture images %}
-    ../assets/img/project/3DIndoorModeling/sourse image.jpg
-    ../assets/img/project/3DIndoorModeling/binary image.jpg
-    ../assets/img/project/3DIndoorModeling/featural lines.png
+    ../assets/img/project/3DIndoorModeling/source_image.jpg
+    ../assets/img/project/3DIndoorModeling/binary_image.jpg
+    ../assets/img/project/3DIndoorModeling/featural_lines.png
 {% endcapture %}
-{% include gallery images=images caption="Screenshots of prt" cols=3 %}
+{% include gallery images=images  cols=1 %}
 
 ## Demo
 <iframe width="640" height="400" src="../assets/img/project/3DIndoorModeling/video.mp4" frameborder="0"> </iframe>

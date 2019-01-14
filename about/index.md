@@ -6,7 +6,22 @@ date: 2016-03-21
 comments: false
 ---
     
-<center><a href="http://yuxian1996.github.io/"><b>Moon</b></a> is a minimal, one column jekyll theme.</center>
+<!-- <center><a href="http://yuxian1996.github.io/"><b>Moon</b></a> is a minimal, one column jekyll theme.</center> -->
+
+<center>This is the website of Yuxian Deng </center>
+
+## Games
+
+<!-- todo
+{% capture images %}
+    https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png
+    https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png
+{% endcapture %}
+{% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %} -->
+
+## Programs
+
+## Blog
 
 ## Features
 * Minimal, you can focus on your content

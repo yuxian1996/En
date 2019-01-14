@@ -26,10 +26,10 @@ In the Dark, is a top down survival horror game with the simple objective to get
 ## Screenshots
 
 {% capture images %}
-    ../assets/img/project/InTheDard/ScreenShot1.png
+    ../assets/img/project/InTheDark/ScreenShot1.png
     ../assets/img/project/InTheDark/ScreenShot3.png
 {% endcapture %}
-{% include gallery images=images caption="Screenshots of In the Dark" cols=2 %}
+{% include gallery images=images cols=2 %}
 
 ## Trailer
-<iframe width="640" height="400" src="../assets/img/project/InTheDard/Trailer.mp4" frameborder="0"> </iframe>
+<iframe width="640" height="400" src="../assets/img/project/InTheDark/Trailer.mp4" frameborder="0"> </iframe>

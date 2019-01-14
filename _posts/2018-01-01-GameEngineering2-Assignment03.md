@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Game Engineering 2 - Assignment01"
+title: "Game Engineering 2 - Assignment03"
 date: 2018-01-01
-excerpt: "This is the writeup for assignment01, EAE 6320 'Game Engineering 2'"
+excerpt: "This is the writeup for assignment03, EAE 6320 'Game Engineering 2'"
 tags: [EAE6320, Game Engine, Assignment]
 comments: false
 ---
@@ -44,14 +44,10 @@ This interface takes a depth value to be set as cleared depth.
 void Swap();
 ~~~
 
----
-
 #### Graphics uses the statement below to clear back buffer color
 ~~~ c++
 PlatformSpecific::ClearColor(sin(simulationTime), cos(simulationTime), cos(simulationTime));
 ~~~
-
----
 
 #### Graphics uses the statement below to initialize an effect
 
@@ -62,17 +58,14 @@ s_effect1.Initialize("data/Shaders/Vertex/standard.shader", "data/Shaders/Fragme
 ~~~
 
 
-| Size(byte) | cEffect |  |
+| Size(byte) | cEffect |
 |:--------|:-------:|:--------:||:-------:|:--------:|--------:|
 | OpenGL  | 16   | 1 GLuint(4 bytes)   | 2 Handle(4 bytes each) | 1 RenderState(1 byte | 3 bytes for alignment|
-| D3D   | 40   | 2 Handle(4 bytes each)   | 1 RenderState(32 bytes)|
 |----
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
+| D3D   | 40   | 2 Handle(4 bytes each)   | 1 RenderState(32 bytes)|
 |=====
 {: rules="groups"}
 
----
 
 #### Graphics uses the statement below to initialize an mesh
 The initialization of mesh takes a vector of vertex data and a vector of index data. The type of mesh1 is `std::vector<VertexFormats::sMesh>`, the type of indices1 is `std::vector<uint16_t>`. 
@@ -92,15 +85,16 @@ The initialization of mesh takes a vector of vertex data and a vector of index d
 Yet I didn’t find a way to make my cMesh and cEffect even smaller. In future assignment we might have to store more data into our mesh and effect class, I guess we could list them from top to bottom as larger data to smaller data to decrease the memory for alignment.
 
 ## Controls
-Press and hold <b>SPACE</b> to make the color change slowly. Release <b>SPACE</b> to return to normal speed.
+Press and hold <kbd>SPACE</kbd> to make the color change slowly. Release <kbd>SPACE</kbd> to return to normal speed.
 
 ## Screenshots
 
 {% capture images %}
-	../img/blog/GameEngineering2/Assignment3/1.png	
-	../img/blog/GameEngineering2/Assignment3/2.png	
-	../img/blog/GameEngineering2/Assignment3/3.png	
-	../img/blog/GameEngineering2/Assignment3/4.png	
-	../img/blog/GameEngineering2/Assignment3/5.gif	
+	../assets/img/blog/GameEngineering2/Assignment3/1.png	
+	../assets/img/blog/GameEngineering2/Assignment3/2.png	
+	../assets/img/blog/GameEngineering2/Assignment3/3.png	
+	../assets/img/blog/GameEngineering2/Assignment3/4.png	
+	../assets/img/blog/GameEngineering2/Assignment3/5.gif	
 {% endcapture %}
-{% include gallery images=images caption="Game Engineering2 - Assignment03" cols=1 %}
+<!-- {% include gallery images=images caption="Game Engineering2 - Assignment03" cols=1 %} -->
+{% include gallery images=images cols=1 %}

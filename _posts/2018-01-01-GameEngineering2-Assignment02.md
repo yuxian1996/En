@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Game Engineering 2 - Assignment01"
+title: "Game Engineering 2 - Assignment02"
 date: 2018-01-01
-excerpt: "This is the writeup for assignment01, EAE 6320 'Game Engineering 2'"
+excerpt: "This is the writeup for assignment02, EAE 6320 'Game Engineering 2'"
 tags: [EAE6320, Game Engine, Assignment]
 comments: false
 ---
@@ -38,16 +38,16 @@ There are two remained differences between `Graphics.d3d.cpp` and `Graphics.gl.c
 
 ## Controls
 
-Press and hold <b>SPACE</b> to make color animation slow. Release to return to normal speed.
+Press and hold <kbd>SPACE</kbd> to make color animation slow. Release to return to normal speed.
 
 #### Platform-independent Interfaces
 
-~~~ ruby
+~~~ c++
 s_effect.Bind();
 s_mesh.Render();
 ~~~
 
-~~~ ruby
+~~~ c++
 // Initialize the shading data
 {
 	if (!(result == s_effect.Initialize()))
@@ -69,12 +69,13 @@ s_mesh.Render();
 ## Screenshots
 
 {% capture images %}
-	../img/blog/GameEngineering2/Assignment2/1.png	
-	../img/blog/GameEngineering2/Assignment2/2.png	
-	../img/blog/GameEngineering2/Assignment2/3.png	
-	../img/blog/GameEngineering2/Assignment2/4.png	
-	../img/blog/GameEngineering2/Assignment2/5.png	
-	../img/blog/GameEngineering2/Assignment2/6.png	
-	../img/blog/GameEngineering2/Assignment2/7.png	
+	../assets/img/blog/GameEngineering2/Assignment2/1.png	
+	../assets/img/blog/GameEngineering2/Assignment2/2.png	
+	../assets/img/blog/GameEngineering2/Assignment2/3.png	
+	../assets/img/blog/GameEngineering2/Assignment2/4.png	
+	../assets/img/blog/GameEngineering2/Assignment2/5.png	
+	../assets/img/blog/GameEngineering2/Assignment2/6.png	
+	../assets/img/blog/GameEngineering2/Assignment2/7.png	
 {% endcapture %}
-{% include gallery images=images caption="Game Engineering2 - Assginment02" cols=1 %}
+<!-- {% include gallery images=images caption="Game Engineering2 - Assginment02" cols=1 %} -->
+{% include gallery images=images cols=1 %}

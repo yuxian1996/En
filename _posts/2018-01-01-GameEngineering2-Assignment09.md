@@ -32,7 +32,7 @@ return
 The first byte is the bits for RenderState. Then I wrote the length of the first path (including a ‘\0’ in the ending). During run-time, program can get the length of first path and jump x bytes to get the second path. The paths I store are relative to `$(GameInstallDir) `so that we don’t need to cost some time to add the prefix “data/” during run-time. However the storage we need to store the path is larger than storing path relative to `$(GameInstallDir)/data`.
 
 <figure>
-	<a href="../img/blog/GameEngineering2/Assignment9/1.png"><img src="../img/blog/GameEngineering2/Assignment9/1.png"></a>
+	<a href="../assets/img/blog/GameEngineering2/Assignment9/1.png"><img src="../assets/img/blog/GameEngineering2/Assignment9/1.png"></a>
 </figure>
 
 ### Extract data
@@ -47,5 +47,5 @@ Press <kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> to move the cube. Hold Co
 ## Screenshots
 
 <figure>
-	<a href="../img/blog/GameEngineering2/Assignment9/3.png"><img src="../img/blog/GameEngineering2/Assignment9/3.png"></a>
+	<a href="../assets/img/blog/GameEngineering2/Assignment9/3.png"><img src="../assets/img/blog/GameEngineering2/Assignment9/3.png"></a>
 </figure>

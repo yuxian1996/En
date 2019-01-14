@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Game Engineering 2 - Assignment01"
+title: "Game Engineering 2 - Assignment04"
 date: 2018-01-01
-excerpt: "This is the writeup for assignment01, EAE 6320 'Game Engineering 2'"
+excerpt: "This is the writeup for assignment04, EAE 6320 'Game Engineering 2'"
 tags: [EAE6320, Game Engine, Assignment]
 comments: false
 ---
@@ -75,8 +75,8 @@ The size of my effect on D3D after reordered is 48 bytes, the order is:
 
 The size of my sDataRequiredToRenderAFrame is 172 bytes on OpenGL, 184 bytes on D3D. In the struct, a `eae6320::Graphics::ConstantBufferFormats::sPerFrame` is already there. I put a float[4] to store background color, two pointers to store the list of pointers of meshes and effects, a uint8_t to store the size of pairs stored. The memory that the pointers point at is not included.
 
-| Size(byte) | sDataRequiredToRenderAFrame |  |
-|:--------|:-------:|--------:|:--------:|:-------:|:--------:|--------:|
+| Size(byte) | sDataRequiredToRenderAFrame |
+|:--------|:-------:|:--------:|:--------:|:-------:|:--------:|--------:|
 | OpenGL   | 172   | 1 eae6320::Graphics::ConstantBufferFormats::sPerFrame (144 bytes)   | 2 pointers (4 bytes) | 1 float[4] 16 bytes | 1 uint8_t (1 byte) | 3 bytes for alignment
 |----
 | D3D   | 184   | 	1 eae6320::Graphics::ConstantBufferFormats::sPerFrame (144 bytes)   | 2 Pointers (8 bytes)| 1 float[4] 16 bytes | 1 uint8_t (1 byte) | 7 bytes for alignment)|
@@ -89,25 +89,23 @@ Press and hold <kbd>F1</kbd> to hide the top triangle, press and hold <kbd>F2</k
 
 ## Screenshots
 
-Default state. Background color will change based on time.
 {% capture images %}
 	../img/blog/GameEngineering2/Assignment4/1.png
 	../img/blog/GameEngineering2/Assignment4/2.png
 {% endcapture %}
-{% include gallery images=images caption="Game Engineering2 - Assignment04" cols=2 %}
+{% include gallery images=images caption="Default state. Background color will change based on time" cols=2 %}
 
-The top triangle is hidden
 {% capture images %}
 	../img/blog/GameEngineering2/Assignment4/3.png
 {% endcapture %}
-{% include gallery images=images caption="Game Engineering2 - Assignment04" cols=1 %}
+{% include gallery images=images caption="The top triangle is hidden" cols=1 %}
 
-The color of the top triangle is changed to white
-The top triangle is hidden
+
 {% capture images %}
 	../img/blog/GameEngineering2/Assignment4/4.gif
 {% endcapture %}
-{% include gallery images=images caption="Game Engineering2 - Assignment04" cols=1 %}
+{% include gallery images=images caption="The color of the top triangle is changed to white
+, the top triangle is hidden" cols=1 %}
 
 
 ## Optional Challenges
