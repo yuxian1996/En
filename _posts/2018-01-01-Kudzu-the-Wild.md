@@ -33,12 +33,13 @@ AI Programmer: pathfinding & random effects in each seson cycle.
 ## Screenshots
 
 {% capture images %}
-    ../assets/img/Projects/KudzuTheWild/1.png
-    ../assets/img/Projects/2.png
+    ../assets/img/projects/KudzuTheWild/1.png
+    ../assets/img/projects/KudzuTheWild/2.png
 {% endcapture %}
-{% include gallery images=images caption="Screenshots of Moon Theme" cols=3 %}
+{% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
 
-<video> <source src="../imges/Projects/KudzuTheWild/trailer.mp4" type="video/mp4"></video>
+## Trailer
+<iframe width="560" height="315" src="../assets/imges/projects/KudzuTheWild/trailer.mp4" frameborder="0"> </iframe>
 
 ---
 
