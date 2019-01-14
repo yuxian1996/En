@@ -37,7 +37,7 @@ If the unit collides with boundary, it will move align to boundary.
 ### Behavior Tree Visualization
 
 <figure>
-	<a href="../assets/img/blog/GameEngineering2/FinalGame/1.png"><img src="../assets/img/blog/GameEngineering2/FinalGame/1.png"></a>
+	<a href="../assets/img/blog/GameEngineering2/FinalGame/2.png"><img src="../assets/img/blog/GameEngineering2/FinalGame/2.png"></a>
 </figure>
 
 When I actually used my behavior tree to create the AI controller, I found every unit needs a behavior tree even though the behavior trees are same. It would use a lot of unnecessary memory to create the duplications of a same behavior tree. So I changed my interface to use the tree. In the past, user had to pass an object and blackboard to the constructor of behavior tree, which means a tree stores these values inside its instance and controls only one object. Now user needs to pass the object and blackboard to the execute function which is executed in update function so that user can pass different values to the same behavior tree.
@@ -49,9 +49,9 @@ There’s a background music. If unit is eaten, plays a bubble sfx. The interfac
 
 ## Controls
 <kbd>W</kbd><kbd>S</kbd><kbd>A</kbd><kbd>D</kbd> to move player unit
----
+
 <kbd>SPACE</kbd> to dash
----
+
 <kbd>ESCAPE</kbd> to exit game
 
 ## Game Record
