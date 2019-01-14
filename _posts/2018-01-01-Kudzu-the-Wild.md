@@ -2,11 +2,11 @@
 layout: post
 title:  "Kudzu: the Wild"
 date:   2018-01-01
-excerpt: "A SERIOUS GAME ABOUT INVASIVE SPECIES"
+excerpt: "a serious game about invasive species"
 project: true
 tag:
 - game 
-comments: true
+comments: false
 ---
  
 ## Abstract
@@ -33,4 +33,4 @@ AI Programmer: pathfinding & random effects in each seson cycle.
 {% include gallery images=images caption="Screenshots of Kudzu: the Wild" cols=2 %}
 
 ## Trailer
-<iframe width="560" height="315" src="../assets/img/project/KudzuTheWild/trailer.mp4" frameborder="0"> </iframe>
+<iframe width="640" height="400" src="../assets/img/project/KudzuTheWild/trailer.mp4" frameborder="0"> </iframe>
