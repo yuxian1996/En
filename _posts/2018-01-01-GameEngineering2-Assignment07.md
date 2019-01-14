@@ -49,10 +49,10 @@ Press <kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> to move the cube. Hold Co
 
 Three colorful meshes
 <figure>
-	<a href="../assets/img/blog/GameEngineering2/Assignment6/1.png"><img src="../assets/img/blog/GameEngineering2/Assignment6/1.png"></a>
+	<a href="../assets/img/blog/GameEngineering2/Assignment7/1.png"><img src="../assets/img/blog/GameEngineering2/Assignment7/1.png"></a>
 </figure>
 
 Debugging maya plug-in
 <figure>
-	<a href="../assets/img/blog/GameEngineering2/Assignment6/2.png"><img src="../assets/img/blog/GameEngineering2/Assignment6/2.png"></a>
+	<a href="../assets/img/blog/GameEngineering2/Assignment7/2.png"><img src="../assets/img/blog/GameEngineering2/Assignment7/2.png"></a>
 </figure>

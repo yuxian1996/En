@@ -75,8 +75,6 @@ The initialization of mesh takes a vector of vertex data and a vector of index d
 | OpenGL  | 16   | 3 GLuint(4 bytes each)   | 1 uint16_t(2 byte) | 2 bytes for alignment |
 | D3D   | 32   | 3 Pointer( 8 bytes each)	| 1 uint16_t(2 bytes)| 6 bytes for alignment|
 |----
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
 |=====
 {: rules="groups"}
 
@@ -96,5 +94,4 @@ Press and hold <kbd>SPACE</kbd> to make the color change slowly. Release <kbd>SP
 	../assets/img/blog/GameEngineering2/Assignment3/4.png	
 	../assets/img/blog/GameEngineering2/Assignment3/5.gif	
 {% endcapture %}
-<!-- {% include gallery images=images caption="Game Engineering2 - Assignment03" cols=1 %} -->
-{% include gallery images=images cols=1 %}
+{% include gallery images=images caption="" cols=1 %}

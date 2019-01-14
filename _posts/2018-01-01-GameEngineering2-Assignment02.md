@@ -77,5 +77,4 @@ s_mesh.Render();
 	../assets/img/blog/GameEngineering2/Assignment2/6.png	
 	../assets/img/blog/GameEngineering2/Assignment2/7.png	
 {% endcapture %}
-<!-- {% include gallery images=images caption="Game Engineering2 - Assginment02" cols=1 %} -->
-{% include gallery images=images cols=1 %}
+{% include gallery images=images caption="" cols=1 %}

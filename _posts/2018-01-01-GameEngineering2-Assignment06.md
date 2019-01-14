@@ -73,5 +73,5 @@ Press <kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> to move the cube. Hold Co
 ## Screenshots
 
 <figure>
-	<a href="../assets/img/blog/GameEngineering2/Assignment6/1.png"><img src="../assets/img/blog/GameEngineering2/Assignment6/1.png"></a>
+	<a href="../assets/img/blog/GameEngineering2/Assignment6/1.jpg"><img src="../assets/img/blog/GameEngineering2/Assignment6/1.jpg"></a>
 </figure>

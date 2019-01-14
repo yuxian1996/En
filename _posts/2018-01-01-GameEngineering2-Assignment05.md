@@ -55,7 +55,7 @@ cRenderableObject provides another function to set its mesh and effect besides i
 This takes a pointer of cGameObject and the time for predict the position of this game object. Inside the function, a simple call to ipGameObject->Submit is enough. Each cGameObject class could has its own submit function.
 
 <figure>
-	<a href="../img/blog/GameEngineering2/Assignment5/5.png"><img src="../img/blog/GameEngineering2/Assignment5/5.png"></a>
+	<a href="../assets/img/blog/GameEngineering2/Assignment5/5.png"><img src="../assets/img/blog/GameEngineering2/Assignment5/5.png"></a>
 </figure>
 
 ### Size of data for each draw call
@@ -71,7 +71,7 @@ In order to draw a mesh, graphics need a pointer to a mesh, a pointer to an effe
 In sContantBuffer Bind function, it needs a binding point to bind the correct buffer. We pass the m_type to the function, and m_type is enum ConstantBufferTypes, which PerFrame = 0, PerMaterial = 1, PerDrawCall = 2. So binding 2 is binding to constant buffer per draw call, binding 0 is binding to constant buffer per frame.
 
 <figure>
-	<a href="../img/blog/GameEngineering2/Assignment5/6.png"><img src="../img/blog/GameEngineering2/Assignment5/6.png"></a>
+	<a href="../assets/img/blog/GameEngineering2/Assignment5/6.png"><img src="../assets/img/blog/GameEngineering2/Assignment5/6.png"></a>
 </figure>
 
 ## Controls

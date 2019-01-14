@@ -2,7 +2,7 @@
 layout: post
 title:  "In the Dark"
 date:   2018-01-01
-excerpt: "a scary puzzle game"
+excerpt: "A scary puzzle game"
 project: true
 tag:
 - game 

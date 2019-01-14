@@ -22,7 +22,7 @@ Behavior tree is composited by lots of nodes, each node has its logic. Some of t
 The basic idea of the framework is:
 
 <figure>
-	<a href="../img/blog/GameEngineering2/BehaviorTree/2.png"><img src="../img/blog/GameEngineering2/BehaviorTree/2.png"></a>
+	<a href="../assets/img/blog/GameEngineering2/BehaviorTree/2.png"><img src="../assets/img/blog/GameEngineering2/BehaviorTree/2.png"></a>
 </figure>
 
 Developers can create derived class from task, decorator or service to implement their own logic, then use public functions or user data file to link those logic together. The derived class could be reused easily through the data file. Developer will be provided public functions to link nodes, add decorators and services to a node, run behavior tree. The data file should include the class name of nodes, name of nodes, links between two linked nodes.

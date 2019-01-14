@@ -38,7 +38,7 @@ The first byte is the bits for RenderState. Then I wrote the length of the first
 ### Extract data
 
 <figure>
-	<a href="../img/blog/GameEngineering2/Assignment9/2.png"><img src="../img/blog/GameEngineering2/Assignment9/2.png"></a>
+	<a href="../assets/img/blog/GameEngineering2/Assignment9/2.png"><img src="../assets/img/blog/GameEngineering2/Assignment9/2.png"></a>
 </figure>
 
 ## Controls

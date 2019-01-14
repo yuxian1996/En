@@ -20,19 +20,18 @@ In this game, player controls one unit (with looped color) and other units (with
 AI has four different behaviors below which composites its behavior tree:
 
 1. Flee
----
+
 If the unit is not dashing and there’s other unit dashing around it, it would move to opposite direction from the dashing unit.
 
 2. Chase
----
-If the unit can dash (last dashing was 5 or more seconds ago) and there’s other unit which is not dashing around it, it would dash and move toward the other unit.
 
+If the unit can dash (last dashing was 5 or more seconds ago) and there’s other unit which is not dashing around it, it would dash and move toward the other unit.
 3. Wander
----
+
 If the unit is not fleeing or chasing, it will choose a random direction every 5 seconds and move toward it.
 
 4. Reach Boundary
----
+
 If the unit collides with boundary, it will move align to boundary.
 
 ### Behavior Tree Visualization

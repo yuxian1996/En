@@ -42,7 +42,7 @@ Since my program supports uint32_t index count and alignment of data, before rea
 </figure>
 
 <figure>
-	<a href="../img/blog/GameEngineering2/Assignment8/3.png"><img src="../img/blog/GameEngineering2/Assignment8/3.png"></a>
+	<a href="../assets/img/blog/GameEngineering2/Assignment8/3.png"><img src="../assets/img/blog/GameEngineering2/Assignment8/3.png"></a>
 </figure>
 
 ### Tables of Time and Size
@@ -70,5 +70,5 @@ Press <kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> to move the cube. Hold Co
 
 Three colorful meshes
 <figure>
-	<a href="../assets/img/blog/GameEngineering2/Assignment8/1.png"><img src="../assets/img/blog/GameEngineering2/Assignment8/1.png"></a>
+	<a href="../assets/img/blog/GameEngineering2/Assignment8/4.png"><img src="../assets/img/blog/GameEngineering2/Assignment8/4.png"></a>
 </figure>
