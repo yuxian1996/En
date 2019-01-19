@@ -116,6 +116,24 @@ body {
 	    box-shadow: none;
 	}
 }
+.category-wrapper {
+	width: 30%;
+	max-width: 850px;
+	margin: 4rem auto;
+	background: $white;
+	color: $color_tuatara;
+	padding: 2em;
+	border-radius: 3px;
+	box-shadow: 0 0 10px 0 rgba($color_shark,0.3);
+	@include transition(.7s);
+	@media #{$small} {
+		width: 90%;
+		padding: 2em 0;
+	    box-shadow: none;
+	}
+}
+
+
 #disqus_thread {
 	width: 75%;
 	max-width: 850px;

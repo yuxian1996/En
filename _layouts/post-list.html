@@ -36,9 +36,9 @@ layout: compress
                 </div>
             </div>
         </div>
-        <nav id="dl-category" class="category-wrapper" role="navigation">
+        <div id="dl-category" class="category-wrapper" role="navigation">
             <button class="dl-trigger">Open Category</button>
-            <ul class="dl-menu">
+            <ul>
                 {% for post in site.posts %}
                 <li>
                     <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
@@ -46,7 +46,7 @@ layout: compress
                 </li>
                 {% endfor %}
             </ul>
-        </nav>
+        </div>
     </header>
     {% include scripts.html %}
     <script src="{{ site.url }}/assets/js/wow.min.js"></script>
