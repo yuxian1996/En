@@ -28,6 +28,17 @@ sass:
 # Comments
 disqus_shortname:   yuxian
 
+# Archives
+jekyll-archives:
+  enabled: []
+  layout: archive
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tag/:name/'
+    category: '/category/:name/'
+
 # Social
 # if you don't have any of social below, comment the line.
 #google:
@@ -68,6 +79,7 @@ gems:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-gist
+  - jekyll-archives
 
 jekyll-mentions:
     base_url: https://github.com

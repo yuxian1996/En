@@ -13,7 +13,7 @@ layout: compress
     {% include nav.html %}
     <!-- Header -->
     <header class="header" role="banner">
-        <div class="wrapper animated fadeIn">
+        <div class="wrapper animated fadeIn" style="background-color:lightslategray;">
             <div class="content">
                 <div class="post-title">
                     <h1>{{ page.title }}</h1>
@@ -36,6 +36,17 @@ layout: compress
                 </div>
             </div>
         </div>
+        <nav id="dl-category" class="category-wrapper" role="navigation">
+            <button class="dl-trigger">Open Category</button>
+            <ul class="dl-menu">
+                {% for post in site.posts %}
+                <li>
+                    <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </nav>
     </header>
     {% include scripts.html %}
     <script src="{{ site.url }}/assets/js/wow.min.js"></script>
