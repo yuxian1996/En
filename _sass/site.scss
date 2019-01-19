@@ -119,7 +119,10 @@ body {
 .category-wrapper {
 	width: 30%;
 	max-width: 850px;
-	margin: 4rem auto;
+	position: absolute;
+	max-width: 300px;
+	display: inline-block;
+	margin: 18rem auto;
 	background: $white;
 	color: $color_tuatara;
 	padding: 2em;

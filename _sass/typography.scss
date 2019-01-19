@@ -2,6 +2,7 @@
 .content {
 	@include font-size(14);
 	padding: 0 2rem;
+	display: inline-block;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased !important;
 	-moz-font-smoothing: antialiased !important;
