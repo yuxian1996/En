@@ -101,8 +101,8 @@ body {
 	}
 }
 .wrapper {
-	width: 75%;
-	max-width: 850px;
+	width: 100%;
+	max-width: 1300px;
 	margin: 4rem auto;
 	display: inline-block;
 	background: $white;
@@ -118,12 +118,11 @@ body {
 	}
 }
 .category-wrapper {
-	width: 30%;
-	max-width: 850px;
+	width: 25%;
 	position: absolute;
 	max-width: 300px;
 	display: inline-block;
-	margin: 18rem auto;
+	margin: 12rem auto;
 	background: $white;
 	color: $color_tuatara;
 	padding: 2em;
