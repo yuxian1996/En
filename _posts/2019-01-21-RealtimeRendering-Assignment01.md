@@ -3,7 +3,6 @@ layout: post
 title:  "Realtime Rendering - Assignment01"
 date:   2019-01-21
 excerpt: "This is the writeup for assignment01, EAE 6900 Realtime Rendering "
-project: false
 tag: [EAE6900, Game Engine, Assignment, Realtime Rendering]
 comments: false
 ---
