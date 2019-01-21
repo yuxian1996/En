@@ -30,7 +30,7 @@ AI Programmer: pathfinding & random effects in each seson cycle.
     ../assets/img/project/KudzuTheWild/1.png
     ../assets/img/project/KudzuTheWild/2.png
 {% endcapture %}
-{% include gallery images=images cols=2 %}
+{% include gallery images=images caption="" cols=2 %}
 
 ## Trailer
 <iframe width="640" height="400" src="../assets/img/project/KudzuTheWild/trailer.mp4" frameborder="0"> </iframe>
