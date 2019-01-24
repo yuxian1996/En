@@ -120,8 +120,9 @@ body {
 	width: 25%;
 	position: absolute;
 	max-width: 300px;
-	display: inline-block;
-	margin: 12rem auto;
+	margin: auto 52rem;
+	top: 0;
+	z-index: 1;
 	background: $white;
 	color: $color_tuatara;
 	padding: 2em;
