@@ -36,7 +36,7 @@ $(document).ready(function() {
     });
     
     $(".nest").click(function(){
-      (".nest").children(".ul").toggle();
+      $(".nest").parent.children(".ul").toggle();
     });
 
     // go up button
