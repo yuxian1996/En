@@ -137,6 +137,14 @@ body {
 	}
 }
 
+.nest {
+	display: none;
+}
+
+.active {
+	display: block;
+}
+
 
 #disqus_thread {
 	width: 75%;

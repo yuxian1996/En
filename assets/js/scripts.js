@@ -24,10 +24,21 @@ $(document).ready(function() {
     if ($(".wrapper").hasClass('fadeOut')) {
         $(".wrapper").removeClass("fadeOut").addClass("fadeIn");
     }
+
+    if ($(".category-wrapper").hasClass('fadeOut')) {
+      $(".category-wrapper").removeClass("fadeOut").addClass("fadeIn");
+  }
+
     $(".zoombtn").click(function() {
         $(".container").removeClass("fadeIn").addClass("fadeOut");
         $(".wrapper").removeClass("fadeIn").addClass("fadeOut");
+        $(".category-wrapper").removeClass("fadeIn").addClass("fadeOut");
     });
+    
+    $(".nest").click(function(){
+      (".nest").children().toggle();
+    });
+    
     // go up button
     $.goup({
         trigger: 500,
