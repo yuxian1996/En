@@ -36,9 +36,9 @@ $(document).ready(function() {
     });
     
     $(".nest").click(function(){
-      (".nest").children().toggle();
+      (".nest").children(".ul").toggle();
     });
-    
+
     // go up button
     $.goup({
         trigger: 500,
