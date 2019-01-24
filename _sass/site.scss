@@ -117,11 +117,12 @@ body {
 	}
 }
 .category-wrapper {
-	width: 25%;
 	position: absolute;
-	max-width: 300px;
-	margin: auto 52rem;
 	top: 0;
+	left: 50%;
+	max-width: 350px;
+	margin-top: 0;
+	margin-left: 28rem;
 	z-index: 1;
 	background: $white;
 	color: $color_tuatara;
@@ -129,8 +130,8 @@ body {
 	border-radius: 3px;
 	box-shadow: 0 0 10px 0 rgba($color_shark,0.3);
 	@include transition(.7s);
-	@media #{$small} {
-		width: 90%;
+	@media #{$small} and (min-width: 48em) {
+		width: 0%;
 		padding: 2em 0;
 	    box-shadow: none;
 	}
