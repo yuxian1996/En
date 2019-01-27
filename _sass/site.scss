@@ -131,9 +131,7 @@ body {
 	box-shadow: 0 0 10px 0 rgba($color_shark,0.3);
 	@include transition(.7s);
 	@media #{$small} {
-		width: 0%;
-		padding: 2em 0;
-	    box-shadow: none;
+		display: none;
 	}
 }
 

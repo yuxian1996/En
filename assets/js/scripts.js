@@ -29,6 +29,8 @@ $(document).ready(function() {
       $(".category-wrapper").removeClass("fadeOut").addClass("fadeIn");
   }
 
+  $(".collpase").removeClass(".collpase").addClass(".collpase");
+
     $(".zoombtn").click(function() {
         $(".container").removeClass("fadeIn").addClass("fadeOut");
         $(".wrapper").removeClass("fadeIn").addClass("fadeOut");
