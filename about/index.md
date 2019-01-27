@@ -12,14 +12,14 @@ comments: false
 
 ## Game Project
 
-### [And I Must Scream: a narrative puzzel game to overcome truma]({{ "AndIMustScream" | prepend: site.baseurl }}){:.no-decoration}
+### [And I Must Scream: a narrative puzzel game to overcome truma]({{ "/AndIMustScream" | prepend: site.baseurl }}){:.no-decoration}
 
 {% capture images %}
     ../assets/img/project/AndIMustScream/cover.png
 {% endcapture %}
 {% include gallery images=images cols=1 %}
 
-### [Kudzu the Wild: A serious game about invasive species]({{ "Kudzu-the-Wild" | prepend: site.baseurl}}){:.no-decoration}
+### [Kudzu the Wild: A serious game about invasive species]({{ "/Kudzu-the-Wild" | prepend: site.baseurl}}){:.no-decoration}
 
 {% capture images %}
     ../assets/img/project/KudzuTheWild/1.png
@@ -29,8 +29,8 @@ comments: false
 
 ## Program
 
-### [Behavior Tree]({{ "GameEngineering2-BehaviorTree" | prepend: site.baseurl}}){:.no-decoration}
+### [Behavior Tree]({{ "/GameEngineering2-BehaviorTree" | prepend: site.baseurl}}){:.no-decoration}
 
-### [Precomputed Radiance Transfer]({{ "prt" | prepend: site.baseurl}}){:.no-decoration}
+### [Precomputed Radiance Transfer]({{ "/prt" | prepend: site.baseurl}}){:.no-decoration}
 
-## [Blog]({{ "posts" | prepend: site.baseurl}}){:.no-decoration}
+## [Blog]({{ "/posts" | prepend: site.baseurl}}){:.no-decoration}
