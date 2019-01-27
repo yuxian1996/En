@@ -292,6 +292,7 @@
 .collapse {
   -webkit-animation-name: collapse;
   animation-name: collapse;
+  margin: 0;
   li{
     max-height: inherit;
   }

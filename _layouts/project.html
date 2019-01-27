@@ -46,9 +46,11 @@ layout: compress
             {% if year != oldYear %}
             {% if firstEnter != true %}
                 </ul>
-           {% else %}
+            </div>
+            {% else %}
            {% assign firstEnter = false %}
            {% endif %}
+           <div>
                <h4 class="nest">{{year}}</h4>
                <ul class="animated collapse">
                     <li>
