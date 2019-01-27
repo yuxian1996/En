@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Realtime Rendering - Assignment01"
+title:  "Realtime Rendering - Render Command"
 date:   2019-01-21
-excerpt: "This is the writeup for assignment01, EAE 6900 Realtime Rendering "
-tag: [EAE6900, Game Engine, Assignment, Realtime Rendering]
+excerpt: "Create a render command and pass it to graphics to optimize rendering"
+tag: [EAE6900, Assignment, Realtime Rendering]
 comments: false
 ---
  

@@ -232,3 +232,61 @@
   -webkit-animation-name: rotateIn;
   animation-name: rotateIn;
 }
+
+@-webkit-keyframes expand {
+  from {
+    width: 0%;
+    opacity: 0;
+  }
+
+  to {
+    width: 100%;
+    opacity: 1;
+  }
+}
+
+@keyframes expand {
+  from {
+    width: 0%;
+    opacity: 0;
+  }
+
+  to {
+    width: 100%;
+    opacity: 1;
+  }
+}
+
+.expandDown {
+  -webkit-animation-name: expand;
+  animation-name: expand;
+}
+
+@-webkit-keyframes collapse {
+  from {
+    width: 100%;
+    opacity: 1;
+  }
+
+  to {
+    width: 0%;
+    opacity: 0;
+  }
+}
+
+@keyframes collapse {
+  from {
+    width: 100%;
+    opacity: 1;
+  }
+
+  to {
+    width: 0%;
+    opacity: 0;
+  }
+}
+
+.collapse {
+  -webkit-animation-name: collapse;
+  animation-name: collapse;
+}

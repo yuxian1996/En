@@ -36,7 +36,13 @@ $(document).ready(function() {
     });
     
     $(".nest").click(function(){
-      $(".nest").parent.children(".ul").toggle();
+      var nest = $(this).parent().children("ul");
+      if(nest.hasClass('expand')){
+        nest.addClass("collapse").removeClass("expand");
+      }
+      else if(nest.hasClass('collapse')){
+        nest.addClass("expand").removeClass("collapse");
+      }
     });
 
     // go up button
