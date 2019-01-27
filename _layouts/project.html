@@ -36,7 +36,7 @@ layout: compress
                 </div>
             </div>
         </div>
-        <div id="dl-category" class="category-wrapper" role="navigation">
+        <div id="dl-category" class="category-wrapper animated fadeIn" role="navigation">
             <h3>Archive</h3>
            {% assign firstEnter = true %}
            {% assign oldYear = "2010" %}
@@ -49,11 +49,14 @@ layout: compress
            {% else %}
            {% assign firstEnter = false %}
            {% endif %}
-               <h4>{{year}}</h4>
-               <ul>
-           {% else %}
+               <h4 class="nest">{{year}}</h4>
+               <ul class="animated collapse">
+                    <li>
+                        <a href="{{ post.url | prepend: site.baseurl }}"> {{post.title}} </a>
+                    </li>
+            {% else %}
                <li>
-                   <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"> {{post.title}} </a>
+                   <a href="{{ post.url | prepend: site.baseurl }}"> {{post.title}} </a>
                </li>
            {% endif %}
            {% assign oldYear = year%}

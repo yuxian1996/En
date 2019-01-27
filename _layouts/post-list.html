@@ -53,9 +53,12 @@ layout: compress
                 <div>
                     <h4 class="nest">{{year}}</h4>
                     <ul class="animated collapse">
+                        <li>
+                            <a href="{{ post.url | prepend: site.baseurl }}"> {{post.title}} </a>
+                        </li>
                 {% else %}
                     <li>
-                        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"> {{post.title}} </a>
+                        <a href="{{ post.url | prepend: site.baseurl }}"> {{post.title}} </a>
                     </li>
                 {% endif %}
                 {% assign oldYear = year%}

@@ -235,7 +235,7 @@
 
 @-webkit-keyframes expand {
   from {
-    max-height: 0%;
+    max-height: 0;
     opacity: 0;
   }
 
@@ -247,7 +247,7 @@
 
 @keyframes expand {
   from {
-    max-height: 0%;
+    max-height: 0;
     opacity: 0;
   }
 
@@ -272,7 +272,7 @@
   }
 
   to {
-    max-height: 0%;
+    max-height: 0;
     opacity: 0;
   }
 }
@@ -284,7 +284,7 @@
   }
 
   to {
-    max-height: 0%;
+    max-height: 0;
     opacity: 0;
   }
 }
