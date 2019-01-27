@@ -1,52 +1,36 @@
 ---
 layout: page
-title: Home
-tags: [home, introduction]
+title: About
+tags: [About, introduction]
 date: 2016-03-21
 comments: false
 ---
     
 <!-- <center><a href="http://yuxian1996.github.io/"><b>Moon</b></a> is a minimal, one column jekyll theme.</center> -->
 
-<center>This is the website of Yuxian Deng </center>
+<center>{{site.bio}}</center>
 
-## Games
+## Game Project
 
-<!-- todo
-{% capture images %}
-    https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png
-    https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png
-{% endcapture %}
-{% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %} -->
-
-## Programs
-
-## Blog
-
-## Features
-* Minimal, you can focus on your content
-* Responsive
-* Disqus integration
-* Syntax highlighting
-* Optional post image
-* Social icons
-* Page for sharing projects
-* Optional background image
-* Simple navigation menu
-* MathJax support
-
-## Preview
+### [And I Must Scream: a narrative puzzel game to overcome truma]({{ "AndIMustScream" | prepend: site.baseurl }}){:.no-decoration}
 
 {% capture images %}
-    https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png
-    https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png
+    ../assets/img/project/AndIMustScream/cover.png
 {% endcapture %}
-{% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
+{% include gallery images=images cols=1 %}
 
-See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
+### [Kudzu the Wild: A serious game about invasive species]({{ "Kudzu-the-Wild" | prepend: site.baseurl}}){:.no-decoration}
 
-## Getting Started
+{% capture images %}
+    ../assets/img/project/KudzuTheWild/1.png
+    ../assets/img/project/KudzuTheWild/2.png
+{% endcapture %}
+{% include gallery images=images cols=1 %}
 
-To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
-      
-[Install Moon](https://github.com/TaylanTatli/Moon){: .btn}
+## Program
+
+### [Behavior Tree]({{ "GameEngineering2-BehaviorTree" | prepend: site.baseurl}}){:.no-decoration}
+
+### [Precomputed Radiance Transfer]({{ "prt" | prepend: site.baseurl}}){:.no-decoration}
+
+## [Blog]({{ "posts" | prepend: site.baseurl}}){:.no-decoration}

@@ -10,7 +10,7 @@ comments: false
 ---
  
 ## Abstract
-And I Must Scream is a narrative puzzel game in which player plays as a 12-year-old boy who's blaming himself of loossing his mother.
+And I Must Scream is a narrative puzzel game in which player plays as a 12-year-old boy who's blaming himself of loosing his mother.
 
 ## Features
 * Two Abilities - Player starts with telekinetic **push** to move obstacles and combat small enemies. Player can **channel** some objects to change an object states, giving more story and unlocking paths.

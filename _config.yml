@@ -1,14 +1,14 @@
 # Site
-title:              Portfolio
-bio:                'Minimal, one column jekyll theme.'
-description:        "Moon is a minimal, one column jekyll theme for your blog."
+title:              Yuxian Deng
+bio:                "I'm a game engineer and I love games. I'm a Chinese, majoring in  ntertainment Arts and Engineering : Master Game Studios at the University of Utah."
+description:        "I'm a game engineer and I love games"
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
-background:         'assets/img/placeholder-big.jpg'
+background:         "assets/img/background.jpg"
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:               http://yuxiandeng.info/Jekyll-Portfolio
+url:               http://yuxiandeng.info/En
 
 # Jekyll
 permalink:          /:title/
@@ -49,19 +49,19 @@ jekyll-archives:
   #ad-slot:
 #bing-verify:
 #email:
-twitter:            username
-facebook:           username
+#twitter:            username
+#facebook:           username
 github-url:         yuxian1996
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
-instagram:          username
+#instagram:          username
 #lastfm:            username
 #tumblr:            username
 #medium:            '@username'
 #pinterest:         username
 #foursquare:        username
-steam:              username
+steam:              Loading
 #dribbble:          username
 #youtube:           username
 #youtube-channel:   channel
