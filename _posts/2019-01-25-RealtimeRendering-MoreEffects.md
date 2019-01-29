@@ -24,6 +24,7 @@ The color of every fragment of this pattern is calculate by only world vertex po
 ### Scale Object Over Time
 
 The object using this effect is scaled from 0 (nothing) to 1(original size). In vertex shader, a scale matrix is created by sin and simulation time. We get vertex position in world by `vertexPosition_world = g_transform_localToWorld * scaleMatrix * position_local`.
+<span style="color:darkred;">scaleMatrix can be simplied to a scaleVector: [value, value, value, 1]. Vertex position in world is `g_transform_localToWorld * (scaleMatrix * position_local)`</span>
 
 <figure>
 	<a href="../assets/img/blog/RealtimeRendering/Assignment02/2.gif"><img src="../assets/img/blog/RealtimeRendering/Assignment02/2.gif"></a>
