@@ -6,6 +6,7 @@ excerpt: "Create and use material"
 tag: [EAE6900, Assignment, Realtime Rendering]
 comments: false
 ---
+<div markdown="0"><a href="https://drive.google.com/open?id=1qJV4BOca9NfmFYgBDdbi7CPb12qi5eua" class="btn btn-info">Download</a></div>
 
 ## Material
 
@@ -68,6 +69,15 @@ The four spheres in the top use a duplication of standard material, the constant
 <figure>
 	<a href="../assets/img/blog/RealtimeRendering/Assignment04/3.gif"><img src="../assets/img/blog/RealtimeRendering/Assignment04/3.gif"></a>
 </figure>
+
+### Control
+
+Press <kbd>Up</kbd><kbd>Down</kbd><kbd>Left</kbd><kbd>Right</kbd> to move move up/down/left/right.
+
+Press <kbd>W</kbd><kbd>S</kbd> to move forward and backward.
+
+Press <kbd>Q</kbd><kbd>E</kbd> to rotate anticlockwise and clockwise.
+
 
 
 
