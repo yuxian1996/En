@@ -52,7 +52,7 @@ New render command is sorted by effect, material, mesh depth and transformation.
 
 There are 4 draw calls (in <span style="color:green">green</span>), the first two draw calls use a same material, the last two draw calls use a same material. The commands between them (in <span style="color:red">red</span>) change material. Since they have different constant data, the constant buffer is reset between the two materials. I reset constant data for both vertex shader and fragment shader because they both might need it. Maybe there's a way to optimize this, only set constant buffer to a specific shader when it's needed? 
 
-### Change Constant Data At Runtime
+### Change Constant Data at Runtime
 
 The six spheres and my floor all use standard material, the constant data of standard material is incremented or decremented when a key is pressed.
 
