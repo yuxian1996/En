@@ -18,11 +18,11 @@ Three steps needs to be done before we can render texture in our scene.
 	
 
 ### Bind and render a texture
-* Bind sample state by register
+* Bind sampler state by register
 * Bind texture by register
 
 ### Material with texture
-Content creator can define the path, filtering, and edge behvior of a texture. If nothing is defined, the material will build a default texture with a default sample state. Every texture has its own sample state and it's built into texture binary.
+Content creator can define the path, filtering, and edge behvior of a texture. If nothing is defined, the material will build a default texture with a default sampler state. Every texture has its own sampler state and it's built into texture binary.
 
 ~~~ c++
 return
