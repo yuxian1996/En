@@ -62,7 +62,7 @@ We can set a threshold of alpha value and discard those pixels whose alpha value
 
 {% capture images %}
     ../assets/img/blog/RealtimeRendering/Assignment07/u.png
-    ../assets/img/blog/RealtimeRendering/Assignment07/alpha u.png
+    ../assets/img/blog/RealtimeRendering/Assignment07/alphau.png
 {% endcapture %}
 {% include gallery images=images caption="Standard alpha transparency and independent pixels without alpha blending " cols=2 %}
 
