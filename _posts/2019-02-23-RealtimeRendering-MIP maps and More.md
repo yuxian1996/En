@@ -26,14 +26,14 @@ MIP maps are precomputed sequence images of an original image, each of them has 
 
 <figure>
 Highest level of MIP map
-	<a href="../assets/img/blog/RealtimeRendering/Assignment07/high MIP.png"><img src="../assets/img/blog/RealtimeRendering/Assignment07/high MIP.png"></a>
+	<a href="../assets/img/blog/RealtimeRendering/Assignment07/highMIP.png"><img src="../assets/img/blog/RealtimeRendering/Assignment07/highMIP.png"></a>
 </figure>
 
 In the first image, MIP maps are enabled, everything looks normal. In the second image, MIP maps are disabled, we can notice there is distortion in the face-up texture. Because GPU maps the position in image coordinate to texture coordinate, if we render a large texture to a small block of pixels, two adjacent pixels might be mapped to two positions far from each other, which might cause aliasing. 
 
 {% capture images %}
-    ../assets/img/blog/RealtimeRendering/Assignment07/MIP enabled.png
-    ../assets/img/blog/RealtimeRendering/Assignment07/MIP disabled.png
+    ../assets/img/blog/RealtimeRendering/Assignment07/MIPenabled.png
+    ../assets/img/blog/RealtimeRendering/Assignment07/MIPdisabled.png
 {% endcapture %}
 {% include gallery images=images caption="Texture with/without MIP maps" cols=2 %}
 
