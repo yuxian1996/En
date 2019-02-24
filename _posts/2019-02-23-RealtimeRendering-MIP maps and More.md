@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Realtime Rendering - MIP maps and More"
-date:   2019-02-21
-excerpt: "Explain what's Mip map, how does it work. Add more effect with texture UV and alpha value."
+title:  "Realtime Rendering - MIP Maps and More Effect"
+date:   2019-02-24
+excerpt: "Explain what's Mip map, how it works. Add more effect with texture UV and alpha value."
 tag: [EAE6900, Assignment, Realtime Rendering]
 comments: false
 ---
