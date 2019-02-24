@@ -7,6 +7,8 @@ tag: [EAE6900, Assignment, Realtime Rendering]
 comments: false
 ---
 
+<div markdown="0"><a href="https://drive.google.com/open?id=1DOP_xZOTyTggknRBsX3SEYobWqDURNOI" class="btn btn-info">Download</a></div>
+
 ### Add texture into build pipeline
 Three steps needs to be done before we can render texture in our scene.
 1. Add texture builder project and add new asset type in our build library.
@@ -63,7 +65,7 @@ Textures =
 ### Result
 
 <figure>
-	<a href="../assets/img/blog/RealtimeRendering/Assignment05/2.png"><img src="../assets/img/blog/RealtimeRendering/Assignment06/1.png"></a>
+	<a href="../assets/img/blog/RealtimeRendering/Assignment06/1.png"><img src="../assets/img/blog/RealtimeRendering/Assignment06/1.png"></a>
 </figure>
 
 
