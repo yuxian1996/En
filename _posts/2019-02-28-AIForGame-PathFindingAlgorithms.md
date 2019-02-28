@@ -10,14 +10,14 @@ comments: false
 
 ## Introduction
 
- The purpose of this assignment is to use pathfinding algorithms to try to find a connective path from our boid to another location in a map and move our boid to that location. To achieve the goal, first, we need to present our world to graph by some data structures, which is called quantification. Second, we need to use the algorithm and the data structure we have to calculate a path. Third, transfer the path we find from graph space to world space, which is called localization. Last, move our boid to the new location, following the path we find, delegating to the steering behavior we did by movement algorithms.
+The purpose of this assignment is to use pathfinding algorithms to try to find a connective path from our boid to another location in a map and move our boid to that location. To achieve the goal, first, we need to present our world to graph by some data structures, which is called quantification. Second, we need to use the algorithm and the data structure we have to calculate a path. Third, transfer the path we find from graph space to world space, which is called localization. Last, move our boid to the new location, following the path we find, delegating to the steering behavior we did by movement algorithms.
 
 
 ### Data Structure of Graph
- A weighted directional graph is used as the presentation of our map. 
+A weighted directional graph is used as the presentation of our map. 
 
- ~~~ c++
- class Graph {
+~~~ c++
+class Graph {
     Edge	edges[];	        // stores every edges in this graph
     NodeRecord	nodeRecords[]; 	// stores every node records in one path finding
     int 	nodeIndices[];		// stores indices of every node
@@ -41,22 +41,23 @@ class NodeRecord
 class Node
 {
 	float x, y;		        // location of node
-}
- ~~~
+};
+
+~~~
 
 ### Mannually Designed Map
- To test the correction of my implementation, I designed my first graph from a map around my hometown. The original screenshot of my map is:
+To test the correction of my implementation, I designed my first graph from a map around my hometown. The original screenshot of my map is:
 
- <figure>
+<figure>
 	<a href="../assets/img/blog/AIForGames/PathFindingAlgorithms/1.jpg"><img src="../assets/img/blog/AIForGames/PathFindingAlgorithms/1.jpg"></a>
 </figure>
 
 There are two different kinds of roads on the map. The cost of time of white thin roads is 1.5 times the cost of yellow thick roads. Some cities are represented as nodes with 2D coordinates as their location. The simplified map is:
- <figure>
+<figure>
 	<a href="../assets/img/blog/AIForGames/PathFindingAlgorithms/2.jpg"><img src="../assets/img/blog/AIForGames/PathFindingAlgorithms/2.jpg"></a>
 </figure>
 
- I measured the rough length of each road and calculated its cost based on type and length. The visualization of the final graph is:
+I measured the rough length of each road and calculated its cost based on type and length. The visualization of the final graph is:
 <figure>
 	<a href="../assets/img/blog/AIForGames/PathFindingAlgorithms/3.jpg"><img src="../assets/img/blog/AIForGames/PathFindingAlgorithms/3.jpg"></a>
 </figure>
@@ -76,15 +77,16 @@ I also use random value in my heuristic function.
  Because the nodes of my graph have location, Manhattan distance and Euclidean distance are always underestimated and admissible, while a random number is not guaranteed to be underestimated and admissible.
 
 ### Result
+
 | Average Time (100 times) | A* Manhattan | A* Euclidean | A* Random | Dijkstra |
 | --- | --- | --- | --- | --- |
-|Small map (22 nodes, 37 edges) | 8.89 microseconds | 8.84 microseconds | 19.82 microseconds | 8.28 microseconds |
-| Large Map (2000 nodes, about 6000 edges) | 79.41 ms | 109.25 ms| 221.18 ms | 216.65 ms |
+|Small map (22 nodes, 37 edges) | 8.89 μs | 8.84 μs | 19.82 μs | 8.28 μs |
+| Large Map (2000 nodes, about 6000 edges) | 79.41 ms | 109.25 ms | 221.18 ms | 216.65 ms |
 
 | Average Number of Nodes Visited (100 times) | A* Manhattan | A* Euclidean | A* Random | Dijkstra |
 | --- | --- | --- | --- | --- |
 |Small map (22 nodes, 37 edges) | 9.45 | 9.78 | 16.49 | 14.93 |
-| Large Map (2000 nodes, about 6000 edges) | 1281.71 | 1490.16 |1819.64 | 1788.65 |
+| Large Map (2000 nodes, about 6000 edges) | 1281.71 | 1490.16 | 1819.64 | 1788.65 |
 
 | Memory Usage in Heap | A* Manhattan | A* Euclidean | A* Random | Dijkstra |
 | --- | --- | --- | --- | --- |
@@ -102,13 +104,13 @@ Division Scheme is a way to convert a world space into linked regions. It consis
 
 There are three typical division schemes:
 ### Dirichlet division
-    It’s a semi-automated division scheme, in which a designer assigns some characteristic points to the real map, then the algorithm provides the partition of maps according to the points. The qualification of Dirichlet division is to find a characteristic point closest to world position, the localization is to find the position of the characteristic point in world space.
+It’s a semi-automated division scheme, in which a designer assigns some characteristic points to the real map, then the algorithm provides the partition of maps according to the points. The qualification of Dirichlet division is to find a characteristic point closest to world position, the localization is to find the position of the characteristic point in world space.
 
 ### Tile
-    Tile is an automated method where a designer defines the width/height of a tile and "overlay" on top of the world space. Its qualification method is to map each location in world space to its closest tile in graph space, the localization method is to get the center of tile in world space. The tile is validating only if all obstacles can fit into tiles perfectly. 
+Tile is an automated method where a designer defines the width/height of a tile and "overlay" on top of the world space. Its qualification method is to map each location in world space to its closest tile in graph space, the localization method is to get the center of tile in world space. The tile is validating only if all obstacles can fit into tiles perfectly. 
 
 ### Navmesh
-    Navmesh is an automated method in which algorithm converts the geometry in world space into a bunch of connected triangles. It could have manual variation such as accuracy.
+Navmesh is an automated method in which algorithm converts the geometry in world space into a bunch of connected triangles. It could have manual variation such as accuracy.
 
 The division scheme used in my project is Tile. It's easy to generate a graph from a map by tile, and it saves time to get edges of nodes because every node is connected to its adjacent nodes (with different cost). I use a grey image as my map in world space, the black area is an obstacle that cannot be pass by boid. To convert an image to a graph, I made some changes to the file qualification, where each node has its own cost instead of each edge. If the number of pixels that have less brightness than 0.5 (0 to 1) is larger than the number of pixels total in a tile, this tile is blocked and its cost is set to be larger than a max cost. In my algorithm, if the cost of tile is larger than the max cost, then the edge to this node is blocked and will be discarded. 
 
