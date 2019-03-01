@@ -90,7 +90,7 @@ I also use random value in my heuristic function.
 
 | Memory Usage in Heap | A* Manhattan | A* Euclidean | A* Random | Dijkstra |
 | --- | --- | --- | --- | --- |
-| Large Map (2000 nodes, about 6000 edges) | 10282 KB | 10290 KB | 10390 KB | 1035 KB |
+| Large Map (2000 nodes, about 6000 edges) | 10282 KB | 10290 KB | 10390 KB | 10350 KB |
 
 According to the result table, we can conclude that A* algorithms with an underestimated and admissible heuristic such as Manhattan and Euclidean distance have better results in terms of both time and memory complexity. However, an overestimated heuristic would cause worse results than Dijstra in both time and memory usage. The random function I use to test is to choose a random number in a very large range, which makes most of the cost overestimated. In this case, the path following algorithm might find the wrong direction at first, then turn back to the right direction, which decreases time and memory performance greatly.
 
