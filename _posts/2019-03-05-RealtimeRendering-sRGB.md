@@ -27,9 +27,9 @@ Human eyes are more sensitive to dimmer light, which means we can distinguish th
     For texture color, we can build them as sRGB color texture so that GPU will convert them to linear color when it's used.
 
 ### Issues Using sRGB Space
-We'll lose precision in the dard side when we convert color from linear space to sRGB space because in sRGB space it grows to bright very quickly. If we use only 8 bits to store each channel, we'll see obvious banding effect.
+We'll lose precision in the dark side when we convert color from linear space to sRGB space because in sRGB space it grows to bright very quickly. If we use only 8 bits to store each channel, we'll see obvious banding effect.
 
-However, in our engine, the vertex color is coded as uint8_ts, but we don't have to worry about banding. That's because vertex is usually relativly far way from each other, and the GPU will interpolate the (banding) color of each vertex to a smooth color for each fragment. But for texture color, we directly assign colors to fragments from texture samplers, which are close to each other in texture. If texture has banding, our image probably has banding too.
+However, in our engine, the vertex color is coded as uint8_ts, but we don't have to worry about banding. That's because vertex is usually relatively far away from each other, and the GPU will interpolate the (banding) color of each vertex to a smooth color for each fragment. But for texture color, we directly assign colors to fragments from texture samplers, which are close to each other in texture. If texture has banding, our image probably has banding too.
 
 ### Result
 
