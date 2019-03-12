@@ -34,8 +34,8 @@ However, in our engine, the vertex color is coded as uint8_ts, but we don't have
 ### Result
 
 {% capture images %}
-    ../assets/img/blog/RealtimeRendering/Assignment09/srgb.png
     ../assets/img/blog/RealtimeRendering/Assignment09/before.png
+    ../assets/img/blog/RealtimeRendering/Assignment09/srgb.png
 {% endcapture %}
 {% include gallery images=images caption = "Image Before / After sRGB Correction" cols=2 %}
 
