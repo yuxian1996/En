@@ -21,7 +21,7 @@ The normal of a plane is the vector which is perpendicular to every vector in th
 ### Diffuse Light
 When a beam of light goes into a surface, some of the light is reflected to another direction by the surface, while some of it is absorbed. The light absorbed by surface is what we called diffuse light.
 
-When a beam of light (<span style="color:orange">yellow</span> area) come from the direction parallel to the normal of a surface, the area absorbing light (<span style="color:red">red</span> area) is smallest, which means the average light a unit area absorbs is biggest. When the angle between incoming light and normal is getting bigger, the area is bigger and the average light is smaller. 
+When a beam of light (<span style="color:orange">orange</span> area) come from the direction parallel to the normal of a surface, the area absorbing light (<span style="color:red">red</span> area) is smallest, which means the average light a unit area absorbs is biggest. When the angle between incoming light and normal is getting bigger, the area is bigger and the average light is smaller. 
 
 {% capture images %}
     ../assets/img/blog/RealtimeRendering/Assignment08/1.png

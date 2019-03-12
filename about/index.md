@@ -10,14 +10,23 @@ comments: false
 
 <center>{{site.bio}}</center>
 
+<center><div markdown="0"><a href="../assets/resume_AI.pdf" class="btn btn-info">Resume</a></div></center>
+
 ## Game Project
 
-### [And I Must Scream: a narrative puzzel game to overcome truma]({{ "/AndIMustScream" | prepend: site.baseurl }}){:.no-decoration}
+### [Meaty McSkinBones]({{ "/MeatyMcSkinBones" | prepend: site.baseurl }}){:.no-decoration}
+A single-player puzzle/platformer where the character is split into three separate bodies.
 
-{% capture images %}
-    ../assets/img/project/AndIMustScream/cover.png
-{% endcapture %}
-{% include gallery images=images cols=1 %}
+<figure>
+	<a href="../MeatyMcSkinBones/index.html"><img src="../assets/img/project/MeatyMcSkinBones/poster.png"></a>
+</figure>
+
+### [And I Must Scream]({{ "/AndIMustScream" | prepend: site.baseurl }}){:.no-decoration}
+A narrative puzzel game to overcome truma
+
+<figure>
+	<a href="../AndIMustScream/index.html"><img src="../assets/img/project/AndIMustScream/cover.png"></a>
+</figure>
 
 ### [Kudzu the Wild: A serious game about invasive species]({{ "/Kudzu-the-Wild" | prepend: site.baseurl}}){:.no-decoration}
 
