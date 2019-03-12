@@ -29,5 +29,5 @@ Gameplay Engineer
 
 ## Trailer
 
-<iframe scr="https://youtu.be/JuyxBguA4qQ"> </iframe>
+<iframe width="990" height="556" src="https://www.youtube.com/embed/JuyxBguA4qQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
