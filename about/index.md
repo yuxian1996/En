@@ -10,7 +10,7 @@ comments: false
 
 <center>{{site.bio}}</center>
 
-<div markdown="0"><a href="../assets/resume_AI.pdf" class="btn btn-info">Resume</a></div>
+<center><div markdown="0"><a href="../assets/resume_AI.pdf" class="btn btn-info">Resume</a></div></center>
 
 ## Game Project
 
