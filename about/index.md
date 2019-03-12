@@ -12,6 +12,13 @@ comments: false
 
 ## Game Project
 
+### [Meaty McSkinBones: a single-player puzzle/platformer where the character is split into three separate bodies]({{ "/MeatyMcSkinBones" | prepend: site.baseurl }}){:.no-decoration}
+
+{% capture images %}
+    ../assets/img/project/MeatyMcSkinBones/poster.png
+{% endcapture %}
+{% include gallery images=images cols=1 %}
+
 ### [And I Must Scream: a narrative puzzel game to overcome truma]({{ "/AndIMustScream" | prepend: site.baseurl }}){:.no-decoration}
 
 {% capture images %}
