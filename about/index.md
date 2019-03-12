@@ -10,6 +10,8 @@ comments: false
 
 <center>{{site.bio}}</center>
 
+<div markdown="0"><a href="../assets/resume_AI.pdf" class="btn btn-info">Resume</a></div>
+
 ## Game Project
 
 ### [Meaty McSkinBones]({{ "/MeatyMcSkinBones" | prepend: site.baseurl }}){:.no-decoration}
