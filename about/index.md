@@ -28,7 +28,8 @@ A narrative puzzel game to overcome truma
 	<a href="../AndIMustScream/index.html"><img src="../assets/img/project/AndIMustScream/cover.png"></a>
 </figure>
 
-### [Kudzu the Wild: A serious game about invasive species]({{ "/Kudzu-the-Wild" | prepend: site.baseurl}}){:.no-decoration}
+### [Kudzu the Wild]({{ "/Kudzu-the-Wild" | prepend: site.baseurl}}){:.no-decoration}
+A serious game about invasive species
 
 {% capture images %}
     ../assets/img/project/KudzuTheWild/1.png

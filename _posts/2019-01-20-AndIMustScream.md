@@ -8,6 +8,8 @@ tag:
 - game 
 - UE4
 comments: false
+portfolio: true
+feature: /assets/img/project/AndIMustScream/cover.png
 ---
  
 ## Abstract

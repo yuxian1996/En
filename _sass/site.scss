@@ -116,6 +116,24 @@ body {
 	    box-shadow: none;
 	}
 }
+
+.portfolio-wrapper{
+	width: 100%;
+	max-width: 1300px;
+	margin: 4rem auto;
+	background: $white;
+	color: $color_tuatara;
+	padding: 2em;
+	border-radius: 3px;
+	box-shadow: 0 0 10px 0 rgba($color_shark,0.3);
+	@include transition(.5s);
+	@media #{$small} {
+		width: 90%;
+		padding: 2em 0;
+	    box-shadow: none;
+	}
+}
+
 .category-wrapper {
 	position: absolute;
 	top: 0;
@@ -250,6 +268,20 @@ header .entry-meta {
 
 .no-decoration{
 	text-decoration: none !important;
+}
+
+.portfolio-row {
+	display: table;
+	border-spacing: 10px;
+	width: 100%;
+}
+
+.portfolio-column {
+	display: table-cell;	
+}
+
+.portfolio-img {
+	width: 18em;
 }
 
 
