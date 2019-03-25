@@ -22,9 +22,12 @@ layout: compress
                     </a>
                 </div>
                 <div class="post-list">
+                    {% assign left = true %}
                     {% for post in site.posts %} 
                         {% if post.portfolio != null %}
-                    <ul class="portfolio-row">
+                            {% if left == true %}
+                    <ul class="portfolio-row">                            
+                            {% endif %}
                         <li class="wow fadeIn portfolio-column" data-wow-duration="1.5s">
                             {% if post.feature != null %}
                             <a href="{{ site.url }}{{ post.url }}">
@@ -35,7 +38,12 @@ layout: compress
                             <p>{{ post.excerpt }}</p>
                             <a href="{{ site.url }}{{ post.url }}" class="btn zoombtn">Read More</a>
                         </li>
+                            {% if left != true %}
+                            {% assign left = true %}
                     </ul>
+                            {% else %}
+                            {% assign left = false %}
+                            {% endif %}
                         {% endif %}
                     {% endfor %}
                 </div>
