@@ -9,7 +9,7 @@ tag:
 - UE4
 comments: false
 portfolio: true
-feature: /assets/img/blog/Jobs/Avalanche/logo.jpg
+feature: /assets/img/project/Avalanche/logo.jpg
 ---
  
 Avalanche is a game studio of WB Games, located in Salt Lake City, Utah. We're making a new AAA game.

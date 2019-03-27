@@ -9,7 +9,7 @@ tag:
 - UE4
 comments: false
 portfolio: true
-feature: /assets/img/project/MeatyMcSkinBones/header.png
+feature: /assets/img/project/MeatyMcSkinBones/header.jpg
 ---
  
 ## Abstract
@@ -31,10 +31,10 @@ Gameplay Programmer
 
 ## Screenshots
 {% capture images %}
-    ../assets/img/project/MeatyMcSkinBones/1.png
-    ../assets/img/project/MeatyMcSkinBones/2.png
-    ../assets/img/project/MeatyMcSkinBones/3.png
-    ../assets/img/project/MeatyMcSkinBones/4.png
+    ../assets/img/project/MeatyMcSkinBones/1.jpg
+    ../assets/img/project/MeatyMcSkinBones/2.jpg
+    ../assets/img/project/MeatyMcSkinBones/3.jpg
+    ../assets/img/project/MeatyMcSkinBones/4.jpg
 {% endcapture %}
 {% include gallery images=images caption="" cols=2 %}
 

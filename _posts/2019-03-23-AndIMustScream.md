@@ -9,7 +9,7 @@ tag:
 - UE4
 comments: false
 portfolio: true
-feature: /assets/img/project/AndIMustScream/header.png
+feature: /assets/img/project/AndIMustScream/header.jpg
 ---
  
 ## Abstract
