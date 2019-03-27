@@ -8,7 +8,7 @@ tag:
 - game 
 - UE4
 comments: false
-portfolio: true
+portfolio: 0
 feature: /assets/img/project/MeatyMcSkinBones/poster.png
 ---
  

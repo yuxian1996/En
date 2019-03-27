@@ -11,6 +11,19 @@ layout: compress
 </head>
 <body>
     {% include nav.html %}
+
+{% assign index = 0%}
+{% capture site_portfolio %}
+{% for post in site.posts%}
+    {% if post.portfolio != null %}{{ post.portfolio}}_{{ index }},{% endif %}
+    {% assign index = {{ index | plus: 2 }} %}
+    {{index}}
+{% endfor %}
+{% endcapture%}
+{% assign portfolio_list = site_portfolio | split:',' | sort%}
+
+<!-- {{ site_portfolio }} -->
+
     <!-- Header -->
     <header class="header" role="banner">
         <div class="portfolio-wrapper animated fadeIn" style="background-color:lightslategray;">
@@ -23,8 +36,9 @@ layout: compress
                 </div>
                 <div class="post-list">
                     {% assign left = true %}
-                    {% for post in site.posts %} 
-                        {% if post.portfolio != null %}
+                    {% for portfolio in portfolio_list %} 
+                        {% assign portfolio_map = portfolio | split:'_'%}
+                        {% assign post = site.posts[portfolio_map[1]]%}
                             {% if left == true %}
                     <ul class="portfolio-row">                            
                             {% endif %}
@@ -44,7 +58,6 @@ layout: compress
                             {% else %}
                             {% assign left = false %}
                             {% endif %}
-                        {% endif %}
                     {% endfor %}
                 </div>
             </div>

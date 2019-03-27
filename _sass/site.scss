@@ -278,11 +278,14 @@ header .entry-meta {
 
 .portfolio-column {
 	display: table-cell;	
+	@media #{$small} {
+        margin: 1em !important;
+    }
 }
 
 .portfolio-img {
-	width: 18em;
-	height: 24em;
+	width: 28em;
+	height: 18em;
 	object-fit: cover;
 }
 

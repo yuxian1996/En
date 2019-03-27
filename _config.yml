@@ -29,15 +29,15 @@ sass:
 disqus_shortname:   yuxian
 
 # Archives
-jekyll-archives:
-  enabled: []
-  layout: archive
-  permalinks:
-    year: '/:year/'
-    month: '/:year/:month/'
-    day: '/:year/:month/:day/'
-    tag: '/tag/:name/'
-    category: '/category/:name/'
+# jekyll-archives:
+#   enabled: []
+#   layout: archive
+#   permalinks:
+#     year: '/:year/'
+#     month: '/:year/:month/'
+#     day: '/:year/:month/:day/'
+#     tag: '/tag/:name/'
+#     category: '/category/:name/'
 
 # Social
 # if you don't have any of social below, comment the line.
