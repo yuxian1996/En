@@ -7,6 +7,8 @@ project: true
 tag:
 - game 
 comments: false
+portfolio: true
+feature: /assets/img/project/KudzuTheWild/1.png
 ---
  
 ## Abstract
@@ -20,9 +22,11 @@ The Wilds is a God Simulator where you add animals to the environment in an atte
      
 <div markdown="0"><a href="https://drive.google.com/open?id=0B_akpSo3hCg4cW45V21nZ3QtbGM" class="btn btn-info">Download</a></div>
 
-## Position
+## Roles
 
-AI Programmer: pathfinding & random effects in each seson cycle.
+Gameplay(AI) Programmer: 
+* Pathfinding of animals
+* Event system that creates random effects and events in each season cycle.
 
 ## Screenshots
 
