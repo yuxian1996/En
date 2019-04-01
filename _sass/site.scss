@@ -279,6 +279,10 @@ header .entry-meta {
 	@media #{$small} {
 		display: inherit;
 	}
+
+	@media #{$medium} {
+		display: inherit;
+	}
 }
 
 .portfolio-column {
@@ -290,12 +294,14 @@ header .entry-meta {
 		margin: 1em !important;
 		display: inherit;
 		margin: 1em 1em !important;
+		width: 100%;
 	}
 
 	@media #{$medium} {
 		margin: 1em !important;
 		display: inherit;
 		margin: 1em 1em !important;
+		width: 100%;
 	}
 }
 
