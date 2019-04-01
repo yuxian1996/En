@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Internship at Avalanche | WB Games"
-date:   2018-10-08
+date:   2019-03-31
 excerpt: "The life and work as an engineer intern at Avalanche | WB Games"
 project: true
 tag:

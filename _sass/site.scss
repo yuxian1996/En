@@ -238,7 +238,8 @@ header .entry-meta {
     text-align: right;
 }
 .feature {
-    @include transition(.5s);
+	@include transition(.5s);
+	background-size: cover;
     @media #{$small} {
         background-image: none !important;
     }
@@ -274,13 +275,20 @@ header .entry-meta {
 	display: table;
 	border-spacing: 10px;
 	width: 100%;
+
+	@media #{$small} {
+		display: inherit;
+	}
 }
 
 .portfolio-column {
 	display: table-cell;	
+	width: 50%;
 	@media #{$small} {
-        margin: 1em !important;
-    }
+		margin: 1em !important;
+		display: inherit;
+		margin: 1em 1em !important;
+	}
 }
 
 .portfolio-img {

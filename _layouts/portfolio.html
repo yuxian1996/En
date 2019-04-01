@@ -36,9 +36,8 @@ layout: compress
                 </div>
                 <div class="post-list">
                     {% assign left = true %}
-                    {% for portfolio in portfolio_list %} 
-                        {% assign portfolio_map = portfolio | split:'_'%}
-                        {% assign post = site.posts[portfolio_map[1]]%}
+                    {% for post in site.posts %} 
+                        {% if post.portfolio == true%}
                             {% if left == true %}
                     <ul class="portfolio-row">                            
                             {% endif %}
@@ -58,6 +57,7 @@ layout: compress
                             {% else %}
                             {% assign left = false %}
                             {% endif %}
+                        {% endif %}
                     {% endfor %}
                 </div>
             </div>

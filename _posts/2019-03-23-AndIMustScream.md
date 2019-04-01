@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "And I Must Scream"
-date:   2019-01-20
+date:   2019-03-23
 excerpt: "A narrative puzzel game "
 project: true
 tag:
@@ -42,4 +42,4 @@ Gameplay(AI) Programmer:
 {% include gallery images=images cols=2 %}
 
 ## Trailer
-<iframe width="640" height="400" src="../assets/img/project/AndIMustScream/trailer.mp4" frameborder="0"> </iframe>
+<iframe width="640" height="400" src="../assets/img/project/AndIMustScream/trailer.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>

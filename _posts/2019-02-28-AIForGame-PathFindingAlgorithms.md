@@ -5,6 +5,8 @@ date:   2019-02-28
 excerpt: "Discuss Dijkstra and A* and integrate them with movement"
 tag: [AI For Games]
 comments: false
+portfolio: true
+feature: /assets/img/blog/AIForGames/PathFindingAlgorithms/feature.png
 ---
  <div markdown="0"><a href="https://drive.google.com/open?id=1gBHD2iviDbORJ3qZLjkhpoN3i3K0KEen" class="btn btn-info">Download Project</a></div>
 
