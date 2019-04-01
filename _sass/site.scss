@@ -283,8 +283,16 @@ header .entry-meta {
 
 .portfolio-column {
 	display: table-cell;	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	width: 50%;
+	border-radius: 10px;
 	@media #{$small} {
+		margin: 1em !important;
+		display: inherit;
+		margin: 1em 1em !important;
+	}
+
+	@media #{$medium} {
 		margin: 1em !important;
 		display: inherit;
 		margin: 1em 1em !important;

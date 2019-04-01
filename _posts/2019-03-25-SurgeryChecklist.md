@@ -25,11 +25,11 @@ UI Engineer:
 ## Screenshots
 
 {% capture images %}
-    ../assets/img/project/SurgeryChecklist/sreenshot(1).png
-    ../assets/img/project/SurgeryChecklist/sreenshot(2).png
-    ../assets/img/project/SurgeryChecklist/sreenshot(3).png
-    ../assets/img/project/SurgeryChecklist/sreenshot(4).png
-    ../assets/img/project/SurgeryChecklist/sreenshot(5).png
-    ../assets/img/project/SurgeryChecklist/sreenshot(6).png
+    ../assets/img/project/SurgeryChecklist/screenshot(1).png
+    ../assets/img/project/SurgeryChecklist/screenshot(2).png
+    ../assets/img/project/SurgeryChecklist/screenshot(3).png
+    ../assets/img/project/SurgeryChecklist/screenshot(4).png
+    ../assets/img/project/SurgeryChecklist/screenshot(5).png
+    ../assets/img/project/SurgeryChecklist/screenshot(6).png
 {% endcapture %}
 {% include gallery images=images caption="" cols=2 %}
