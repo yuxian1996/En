@@ -3,7 +3,7 @@ layout: post
 title:  "Realtime Rendering - Local-to-projected Transform"
 date:   2019-01-26
 excerpt: "Pass a local-to-projected transform to our shaders to get rid of the multiplication of three transforms "
-tag: [EAE6900, Assignment, Realtime Rendering]
+tag: [EAE6900, Realtime Rendering]
 comments: false
 ---
  

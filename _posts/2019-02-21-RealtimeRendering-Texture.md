@@ -3,7 +3,7 @@ layout: post
 title:  "Realtime Rendering - Texture"
 date:   2019-02-21
 excerpt: "Add textures to our material"
-tag: [EAE6900, Assignment, Realtime Rendering]
+tag: [EAE6900, Realtime Rendering]
 comments: false
 ---
 

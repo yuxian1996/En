@@ -3,7 +3,7 @@ layout: post
 title:  "Realtime Rendering - More Effects"
 date:   2019-01-25
 excerpt: "We're creating more effect, shaders."
-tag: [EAE6900, Assignment, Realtime Rendering]
+tag: [EAE6900, Realtime Rendering]
 comments: false
 ---
  

@@ -3,7 +3,7 @@ layout: post
 title:  "Realtime Rendering - Normal & Light"
 date:   2019-03-02
 excerpt: "Add normal to our mesh and directional light to the environment"
-tag: [EAE6900, Assignment, Realtime Rendering]
+tag: [EAE6900, Realtime Rendering]
 comments: false
 ---
 

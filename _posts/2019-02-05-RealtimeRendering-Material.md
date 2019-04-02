@@ -3,7 +3,7 @@ layout: post
 title:  "Realtime Rendering - Material"
 date:   2019-02-05
 excerpt: "Create and use material"
-tag: [EAE6900, Assignment, Realtime Rendering]
+tag: [EAE6900, Realtime Rendering]
 comments: false
 ---
 <div markdown="0"><a href="https://drive.google.com/open?id=1qJV4BOca9NfmFYgBDdbi7CPb12qi5eua" class="btn btn-info">Download</a></div>

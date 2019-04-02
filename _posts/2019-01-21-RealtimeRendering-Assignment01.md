@@ -3,7 +3,7 @@ layout: post
 title:  "Realtime Rendering - Render Command"
 date:   2019-01-21
 excerpt: "Create a render command and pass it to graphics to optimize rendering"
-tag: [EAE6900, Assignment, Realtime Rendering]
+tag: [EAE6900, Realtime Rendering]
 comments: false
 ---
  

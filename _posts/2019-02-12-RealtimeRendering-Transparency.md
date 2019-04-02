@@ -3,7 +3,7 @@ layout: post
 title:  "Realtime Rendering - Transparency"
 date:   2019-02-12
 excerpt: "Create transparent effect and use different render command to sort"
-tag: [EAE6900, Assignment, Realtime Rendering]
+tag: [EAE6900, Realtime Rendering]
 comments: false
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title:  "Realtime Rendering - sRGB"
 date:   2019-03-05
 excerpt: "Explain linear color and sRGB color. Correct the color of our previous images"
-tag: [EAE6900, Assignment, Realtime Rendering]
+tag: [EAE6900, Realtime Rendering]
 comments: false
 ---
 
