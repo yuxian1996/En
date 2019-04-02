@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Realtime Rendering - Specular Light"
-date:   2019-0-05
+date:   2019-04-02
 excerpt: "Add spe"
 tag: [EAE6900, Realtime Rendering]
 comments: false
