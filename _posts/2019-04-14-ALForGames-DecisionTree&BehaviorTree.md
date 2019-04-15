@@ -175,11 +175,12 @@ ID3 algorithm requires a set of data, containing data of every attribute and the
 | Far    | Yes | Move to target |
 | Close  | No  | Change target  |
 |=====
+{: rules="groups"}
 
 ### Generated Decision Tree
 
 <figure>
-	<a href="../assets/img/blog/AIForGames/DTBT/learning.png"><img src="../assets/img/blog/AIForGames/DTBT/learning.png"></a>
+	<a href="../assets/img/blog/AIForGames/DTBT/learning.PNG"><img src="../assets/img/blog/AIForGames/DTBT/learning.PNG"></a>
 </figure>
 
 The generated decision tree is pretty similar to the first decision tree I created above except that it replaces the node “is reach target” by “distance to target”, which is the attribute created by me manually. It’s predictable that the generated decision tree would be exactly the same as my first decision tree if I replace the attribution “distance to target” by “is reach player”. 
