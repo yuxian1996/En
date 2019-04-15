@@ -166,6 +166,8 @@ The summary of ID3 is:
 
 ID3 algorithm requires a set of data, containing data of every attribute and the result. In my level, I create two attributes: if a character is close to the player, the distance to the target. Because distance is float number, it could be anything between 0 to infinite, I map the distance to three ranges to make easier to understand and calculate. There are three actions in my behavior tree, leading to three results in my ID3 recording data.
 
+I recorded one sample of data at each frame. I recorded about 30 seconds to make sure every possible combinations of my attributes have been recorded. I recorded about 1000 samples at the situation of 30 fps.
+
 ### Data example
 
 | Distance to target | Is close to player | Result |
