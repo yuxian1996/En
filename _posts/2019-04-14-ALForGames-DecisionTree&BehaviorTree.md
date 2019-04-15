@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "AI For Games - Decision Tree & Behavior Tree"
-date:   2019-02-28
+date:   2019-04-14
 excerpt: "Implement Decision Tree and Behavior Tree."
 tag: [AI For Games]
 comments: false
 portfolio: true
-feature: /assets/img/blog/AIForGames/PathFindingAlgorithms/feature.png
+feature: /assets/img/blog/AIForGames/DTBT/twotrees.gif
 ---
  <div markdown="0"><a href="https://drive.google.com/open?id=1ncGXxDThx-1ANO--aYWwI8o7rhEMQ624" class="btn btn-info">Download Project</a></div>
 
