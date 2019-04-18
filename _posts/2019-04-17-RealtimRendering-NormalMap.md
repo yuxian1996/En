@@ -38,11 +38,11 @@ float3 result = transform(TBNMatrix, normalMap.xyz)
 
 {% capture images %}
     ../assets/img/blog/RealtimeRendering/Assignment12/1.png
-    ../assets/img/blog/RealtimeRendering/Assignment12/2.PNG
-    ../assets/img/blog/RealtimeRendering/Assignment12/3.PNG
-    ../assets/img/blog/RealtimeRendering/Assignment12/4.PNG
-    ../assets/img/blog/RealtimeRendering/Assignment12/5.PNG
-    ../assets/img/blog/RealtimeRendering/Assignment12/6.PNG
+    ../assets/img/blog/RealtimeRendering/Assignment12/2.png
+    ../assets/img/blog/RealtimeRendering/Assignment12/3.png
+    ../assets/img/blog/RealtimeRendering/Assignment12/4.png
+    ../assets/img/blog/RealtimeRendering/Assignment12/5.png
+    ../assets/img/blog/RealtimeRendering/Assignment12/6.png
 {% endcapture %}
 {% include gallery images=images caption="Pointlight from multiple angles" cols=3 %}
 
