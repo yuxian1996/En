@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Realtime Rendering - Normal Map"
-date:   2019-04-02
+date:   2019-04-17
 excerpt: "Add normal map to our rendering pipeline to offer more geometry detail"
 tag: [EAE6900, Realtime Rendering]
 comments: false
@@ -37,7 +37,7 @@ float3 result = transform(TBNMatrix, normalMap.xyz)
 ### Result
 
 {% capture images %}
-    ../assets/img/blog/RealtimeRendering/Assignment12/1.PNG
+    ../assets/img/blog/RealtimeRendering/Assignment12/1.png
     ../assets/img/blog/RealtimeRendering/Assignment12/2.PNG
     ../assets/img/blog/RealtimeRendering/Assignment12/3.PNG
     ../assets/img/blog/RealtimeRendering/Assignment12/4.PNG
