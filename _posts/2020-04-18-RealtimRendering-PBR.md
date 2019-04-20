@@ -24,12 +24,12 @@ where h is the half vector of input and output, D(h) is Distribution Function, d
 
 For Lambert material, its BRDF function is:
 
-\\[f(\omega_i,\omega_o) = \frac{R_d}{pi} \\]
+\\[f(\omega_i,\omega_o) = \frac{R_d}{\pi} \\]
 
-For our specular material, \\(D(h) = {x+2\over 2pi}{(h\doth)}^x\\), \\(F(\omega_i, h) = R_0 + [(1 - R_0){(1-(l\doth))}^5]\\),
-G(\omega_i, \omega_o, h) = |n\dotv||n\dotl|. The final equation is:
+For our specular material, \\(D(h) = {x+2\over 2\pi}{(h\cdot h)}^x\\), \\(F(\omega_i, h) = R_0 + [(1 - R_0){(1-(l\cdot h))}^5]\\),
+\\(G(\omega_i, \omega_o, h) = |n\cdot v||n\cdot l|\\). The final equation is:
 
-\\[L_0= {(\alpha+2)*(n\doth)^\alpha\over 8}(R_0+(1-R_0)\dot(1-(l,h))^5)(n\dotl)) \\]
+\\[L_0= {\alpha+2\over 8}(n\cdot h)^\alpha(R_0+(1-R_0)\cdot(1-(l,h))^5)(n\cdot l)) \\]
 
 ### Result
 
@@ -49,6 +49,7 @@ G(\omega_i, \omega_o, h) = |n\dotv||n\dotl|. The final equation is:
 Gloss Map or Specular Map is used to control the smoothness of a material. Gloss map is a single channel texture which has only one float for each texel, so it should be compressed by BC4 Compression. I assume the artists to author these textures using real world reference so the source image is already in linear space and doesn't need to be converted. 
 
 I map the sampler value from [0, 1] to [1, 256] by following equation:
+
 ~~~c++
 float gloss = pow(2, round(SamplerTexture2d(g_glossMap, g_glossState, i_texcoord) * 8));
 ~~~
