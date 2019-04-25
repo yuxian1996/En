@@ -31,7 +31,7 @@ When a beam of light (<span style="color:orange">orange</span> area) come from t
 
 A person called Lambert created the equation to calculate diffuse lighting by the angle between normal and incoming light:
 
-`Multiplicative = magnitude of light * magnitude of normal * max(cos(light, normal) , 0)`
+`Multiplicative = max(cos(light, normal), 0) = max(dot(light, normal), 0) / (magnitude of light * magnitude of normal)`
 
 The direction of light here is from surface to light source. The min() function here is to make sure incoming light doesn't come from the back side of the surface, which could causes negative values.
 
