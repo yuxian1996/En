@@ -53,7 +53,7 @@ float3 result = transform(TBNMatrix, normalMap.xyz)
 
 ### Make Our Own Normal Map
 
-I created brick material with normal map. I used a height map as an reference to create the normal map. The surface is rasied higher when the color in height map is brighter and sunken deeper when the color is darker. The coordinate I use is from left to right, bottom to up, (0,0) is located in the bottom left corner. The right edge of a brick should face to positive x and looks redish. The up edge of a brick should face to positive y and looks greenish.
+I created brick material with normal map. An height map is used as the reference to create a normal map. The surface is rasied higher when the color in height map is brighter and sunken deeper when the color is darker. The coordinate I use is from left to right, bottom to up, (0,0) is located in the bottom left corner. The right edge of a brick should face to positive x and looks redish. The up edge of a brick should face to positive y and looks greenish. We could add some noise to the normal map so the surface of a brick doesn't look completely flat.
 
 {% capture images %}
     ../assets/img/blog/RealtimeRendering/Assignment12/brick_height.png
