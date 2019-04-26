@@ -13,17 +13,18 @@ So far the light sources we use to render our scene are only directional light a
 In our engine, environment map is basically a 3D cube map, which has 6 faces (textures) as a cube, using a 3D vector (from center of cube to the sampler point) to get the sampler color.
 
 ### Reflection
-The reflected color comes from the environment map, sampling by the reflected direction of the view direction. We use the same formula as we used in [PBR]() to calculate reflected light, except the dot product in Fresnel function should be normal dot reflected direction. 
+The reflected color comes from the environment map, sampling by the reflected direction of the view direction. We use the same formula as we used in [PBR]({{"/RealtimRendering-PBR" | prepend: site.baseurl}}) to calculate reflected light, except the dot product in Fresnel function should be normal dot reflected direction. The reflection should be additive but it would look too bright if we add it directly since the color we get from environment map is only an approximate light color without attenuation, occlusion and anything else. In our engine, multiplying the reflection by diffuse light (light dot normal) before adding it would get a better result. 
 
 ### Result
 
-<figure>
-	<a href="../assets/img/blog/RealtimeRendering/Assignment13/1.gif"><img src="../assets/img/blog/RealtimeRendering/Assignment13/1.gif"></a>
-    <figcaption>Change smoothness dynamically</figcaption>
-</figure>
+{% capture images %}
+    ../assets/img/blog/RealtimeRendering/Assignment14/1.png
+    ../assets/img/blog/RealtimeRendering/Assignment14/2.png
+{% endcapture %}
+{% include gallery images=images caption="Gold Material" cols=2 %}
 
 {% capture images %}
-    ../assets/img/blog/RealtimeRendering/Assignment13/1.png
-    ../assets/img/blog/RealtimeRendering/Assignment13/2.png
+    ../assets/img/blog/RealtimeRendering/Assignment14/3.png
+    ../assets/img/blog/RealtimeRendering/Assignment14/4.png
 {% endcapture %}
-{% include gallery images=images caption="Fresnel Effect" cols=2 %}
+{% include gallery images=images caption="Non-metal Material" cols=2 %}

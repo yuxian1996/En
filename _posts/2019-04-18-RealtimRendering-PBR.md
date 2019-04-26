@@ -26,7 +26,7 @@ For Lambert material, its BRDF function is:
 
 \\[f(\omega_i,\omega_o) = \frac{R_d}{\pi} \\]
 
-For our specular material, \\(D(h) = {x+2\over 2\pi}{(h\cdot h)}^x\\), \\(F(\omega_i, h) = R_0 + [(1 - R_0){(1-(l\cdot h))}^5]\\),
+For our specular material, \\(D(h) = {x+2\over 2\pi}{(n\cdot h)}^x\\), \\(F(\omega_i, h) = R_0 + [(1 - R_0){(1-(l\cdot h))}^5]\\),
 \\(G(\omega_i, \omega_o, h) = |n\cdot v||n\cdot l|\\). The final equation is:
 
 \\[L_0= {\alpha+2\over 8}(n\cdot h)^\alpha(R_0+(1-R_0)\cdot(1-(l,h))^5)(n\cdot l)) \\]
