@@ -14,7 +14,10 @@ Geometry Shader is an optional shader stage between vertex shader and fragment s
 ### Geometry Shader Declaration
 From [DirectX HLSL](https://docs.microsoft.com/en-us/windows/desktop/direct3dhlsl/dx-graphics-hlsl-geometry-shader), we use the following syntax to declare a geometry shader object:
 
-[maxvertexcount (*NumVerts*)] void *ShaderName* ( *PrimitiveType* *DataType* Name [ *NumElements* ], inout *StreamOutputObject* );
+``` c++
+[maxvertexcount(NumVerts)] 
+void ShaderName (PrimitiveType DataType Name [NumElements], inout StreamOutputObject)
+```
 
 - *NumVerts* is the number of output vertices
 - *ShaderName* is main in our engine
