@@ -79,4 +79,4 @@ We can do many cool stuff by adding geometry shader, which we cannot implement b
     ../assets/img/blog/RealtimeRendering/GeometryShader/2.png
     ../assets/img/blog/RealtimeRendering/GeometryShader/3.png
 {% endcapture %}
-{% include gallery images=images caption="Add a Vertex to the Center of a Triangle" cols=2 %}
+{% include gallery images=images caption="Add A Vertex to the Center of A Triangle" cols=2 %}
